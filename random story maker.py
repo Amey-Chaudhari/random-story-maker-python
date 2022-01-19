@@ -26,7 +26,7 @@ solutions = [sol1, sol2, sol3]
 endings = [end1, end2, end3]
 
 print(random.choice(intros)),
-print(random.choice()),
+print(random.choice(characters)),
 print(random.choice(problems)),
 print(random.choice(solutions)),
 print(random.choice(endings))
